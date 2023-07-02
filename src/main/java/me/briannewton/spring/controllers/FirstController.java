@@ -11,4 +11,9 @@ public class FirstController {
     public String first() {
         return "My First Spring Boot App!";
     }
+
+    @GetMapping("/second")
+    public String second() {
+        return "My Second Spring Boot App!";
+    }
 }
